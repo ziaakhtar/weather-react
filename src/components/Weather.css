@@ -98,3 +98,50 @@
     width: 26px;
     margin-top: 10px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .weather {
+        width: 80%;
+        padding: 20px;
+    }
+    .weather-temp {
+        font-size: 60px;
+    }
+    .weather-city {
+        font-size: 30px;
+    }
+    .weather-data {
+        flex-direction: column;
+        align-items: center;
+    }
+    .weather-data .col {
+        font-size: 18px;
+    }
+    .weather-data .col span {
+        font-size: 14px;
+    }
+    .weather-img {
+        width: 100px;
+    }
+    .search-bar:hover > input {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .weather {
+        width: 90%;
+        padding: 15px;
+    }
+    .weather-temp {
+        font-size: 50px;
+    }
+    .weather-city {
+        font-size: 25px;
+    }
+    .search-bar:hover > input {
+        width: 150px;
+    }
+}
